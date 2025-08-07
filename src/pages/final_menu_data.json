@@ -1,0 +1,1436 @@
+{
+  "menuItems": {
+    "ar": [
+      {
+        "id": "وجبات_الفطور_1",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "كبده",
+        "calories": "720 سعرة حرارية",
+        "price": "22.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203349376774.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_2",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "مقلقل دجاج اچاي",
+        "calories": "375 سعرة حرارية",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592569434300.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_3",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "فول اچاي",
+        "calories": "130 سعرة حرارية",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592937188498.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_4",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "شكشوكة اچاي",
+        "calories": "173 سعرة حرارية",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593218704682.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_5",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "حلوم",
+        "calories": "560 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203111460866.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_6",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "صحن حمص",
+        "calories": "364 سعرة حرارية",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334616688693932.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_7",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "صحن فلافل",
+        "calories": "342 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334617600185074.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_8",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "بيض تركي",
+        "calories": "380 سعرة حرارية",
+        "price": "18.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17373460123077674.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_9",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "صحن طحينية",
+        "calories": "190 سعرة حرارية",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/tahini_plate_17500569271600698.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_10",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "صحن مخلل",
+        "calories": "14 سعرة حرارية",
+        "price": "5.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/pickled_plate_17500569820492172.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_11",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "صحن عسل",
+        "calories": "63 سعرة حرارية",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/honey_plate_17500571274104894.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_12",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "صحن قشطة",
+        "calories": "165 سعرة حرارية",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/a_plate_of_cream_17500572136452560.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_13",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "صحن زيتون",
+        "calories": "85 سعرة حرارية",
+        "price": "9.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/plate_of_olives_17500573025135424.jpg"
+      },
+      {
+        "id": "وجبات_الفطور_14",
+        "categoryId": "وجبات_الفطور",
+        "categoryName": "وجبات الفطور",
+        "name": "صحن جبن سائل",
+        "calories": "220 سعرة حرارية",
+        "price": "5.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/liquid_cheese_plate_17500574196470084.jpg"
+      },
+      {
+        "id": "عروض_الجمعات_1",
+        "categoryId": "عروض_الجمعات",
+        "categoryName": "عروض الجمعات",
+        "name": "وجبة فطور كبيرة محلي",
+        "calories": "1375 سعرة حرارية",
+        "price": "75.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999591418493138.jpg"
+      },
+      {
+        "id": "عروض_الجمعات_2",
+        "categoryId": "عروض_الجمعات",
+        "categoryName": "عروض الجمعات",
+        "name": "بوكس فطور سفري",
+        "calories": "1375 سعرة حرارية",
+        "price": "85.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17048735751271090.jpg"
+      },
+      {
+        "id": "عروض_الجمعات_3",
+        "categoryId": "عروض_الجمعات",
+        "categoryName": "عروض الجمعات",
+        "name": "وجبة فطور نواشف",
+        "calories": "865 سعرة حرارية",
+        "price": "55.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592087784376.jpg"
+      },
+      {
+        "id": "المناقيش_1",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة الباذنجان",
+        "calories": "280 سعرة حرارية",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609075054284.jpg"
+      },
+      {
+        "id": "المناقيش_2",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة الزهرة",
+        "calories": "270 سعرة حرارية",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609441987010.jpg"
+      },
+      {
+        "id": "المناقيش_3",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة زعتر",
+        "calories": "194 سعرة حرارية",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609736315480.jpg"
+      },
+      {
+        "id": "المناقيش_4",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة بيبروني",
+        "calories": "345 سعرة حرارية",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610056448178.jpg"
+      },
+      {
+        "id": "المناقيش_5",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة دجاج جبن",
+        "calories": "430 سعرة حرارية",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610282790068.jpg"
+      },
+      {
+        "id": "المناقيش_6",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة دجاج التكا الهندي",
+        "calories": "430 سعرة حرارية",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610513189562.jpg"
+      },
+      {
+        "id": "المناقيش_7",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة دجاج ترافل",
+        "calories": "435 سعرة حرارية",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610726349654.jpg"
+      },
+      {
+        "id": "المناقيش_8",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة جبن عكاوي",
+        "calories": "170 سعرة حرارية",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610978352538.jpg"
+      },
+      {
+        "id": "المناقيش_9",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة تونة سبايسي",
+        "calories": "220 سعرة حرارية",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999611181622016.jpg"
+      },
+      {
+        "id": "المناقيش_10",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة موزاريلا",
+        "calories": "224 سعرة حرارية",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17181962674940614.jpg"
+      },
+      {
+        "id": "المناقيش_11",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة لبنة",
+        "calories": "200 سعرة حرارية",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999619219978964.jpg"
+      },
+      {
+        "id": "المناقيش_12",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة جبن سائل",
+        "calories": "220 سعرة حرارية",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999619010959332.jpg"
+      },
+      {
+        "id": "المناقيش_13",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة جبن وطحينية",
+        "calories": "220 سعرة حرارية",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999611729456888.jpg"
+      },
+      {
+        "id": "المناقيش_14",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة بيض وجبن",
+        "calories": "270 سعرة حرارية",
+        "price": "12.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999612007430760.jpg"
+      },
+      {
+        "id": "المناقيش_15",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة جبن قشقوان",
+        "calories": "289 سعرة حرارية",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999618723999908.jpg"
+      },
+      {
+        "id": "المناقيش_16",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة سبانخ",
+        "calories": "190 سعرة حرارية",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999612431514750.jpg"
+      },
+      {
+        "id": "المناقيش_17",
+        "categoryId": "المناقيش",
+        "categoryName": "المناقيش",
+        "name": "فطيرة فلافل",
+        "calories": "225 سعرة حرارية",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999614501709654.jpg"
+      },
+      {
+        "id": "الحلى_1",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "خلية نحل سمسم",
+        "calories": "300 سعرة حرارية",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593743283816.jpg"
+      },
+      {
+        "id": "الحلى_2",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "خلية نحل سمسم",
+        "calories": "90 سعرة حرارية",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594046112364.jpg"
+      },
+      {
+        "id": "الحلى_3",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "خلية نحل كنافة",
+        "calories": "325 سعرة حرارية",
+        "price": "28.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594336835204.jpg"
+      },
+      {
+        "id": "الحلى_4",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "خلية نحل كنافة",
+        "calories": "130 سعرة حرارية",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594673407078.jpg"
+      },
+      {
+        "id": "الحلى_5",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "خلية نحل بيكان",
+        "calories": "300 سعرة حرارية",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595024801624.jpg"
+      },
+      {
+        "id": "الحلى_6",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "خلية نحل بيكان",
+        "calories": "90 سعرة حرارية",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595322988384.jpg"
+      },
+      {
+        "id": "الحلى_7",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "لقيمات جبن",
+        "calories": "252 سعرة حرارية",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595553769670.jpg"
+      },
+      {
+        "id": "الحلى_8",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "اصابع جبن",
+        "calories": "260 سعرة حرارية",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595855678890.jpg"
+      },
+      {
+        "id": "الحلى_9",
+        "categoryId": "الحلى",
+        "categoryName": "الحلى",
+        "name": "كنافة اچاي",
+        "calories": "395 سعرة حرارية",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999596233906436.jpg"
+      },
+      {
+        "id": "سمبوسه_وخفايف_1",
+        "categoryId": "سمبوسه_وخفايف",
+        "categoryName": "سمبوسه وخفايف",
+        "name": "سمبوسة دجاج",
+        "calories": "640 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052207494541938.jpg"
+      },
+      {
+        "id": "سمبوسه_وخفايف_2",
+        "categoryId": "سمبوسه_وخفايف",
+        "categoryName": "سمبوسه وخفايف",
+        "name": "سمبوسة جبن",
+        "calories": "565 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597263853306.jpg"
+      },
+      {
+        "id": "سمبوسه_وخفايف_3",
+        "categoryId": "سمبوسه_وخفايف",
+        "categoryName": "سمبوسه وخفايف",
+        "name": "سمبوسة مشكل",
+        "calories": "570 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17399416981268662.jpg"
+      },
+      {
+        "id": "سمبوسه_وخفايف_4",
+        "categoryId": "سمبوسه_وخفايف",
+        "categoryName": "سمبوسه وخفايف",
+        "name": "سمبوسة جبن المالح",
+        "calories": "595 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17143015592258806.jpg"
+      },
+      {
+        "id": "سمبوسه_وخفايف_5",
+        "categoryId": "سمبوسه_وخفايف",
+        "categoryName": "سمبوسه وخفايف",
+        "name": "مسخن دجاج",
+        "calories": "336 سعرة حرارية",
+        "price": "22.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17118304442786692.jpg"
+      },
+      {
+        "id": "سمبوسه_وخفايف_6",
+        "categoryId": "سمبوسه_وخفايف",
+        "categoryName": "سمبوسه وخفايف",
+        "name": "سمبوسة دجاج بالفرن",
+        "calories": "620 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_chicken_samosa_17543988333377506.jpg"
+      },
+      {
+        "id": "سمبوسه_وخفايف_7",
+        "categoryId": "سمبوسه_وخفايف",
+        "categoryName": "سمبوسه وخفايف",
+        "name": "سمبوسة جبن بالفرن",
+        "calories": "540 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_cheese_samosa_17543988780870388.jpg"
+      },
+      {
+        "id": "سمبوسه_وخفايف_8",
+        "categoryId": "سمبوسه_وخفايف",
+        "categoryName": "سمبوسه وخفايف",
+        "name": "سمبوسة جبن مالح بالفرن",
+        "calories": "575 سعرة حرارية",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_salty_cheese_samosa_17543990024804698.jpg"
+      },
+      {
+        "id": "الشاي_1",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "شاي أحمر إبريق",
+        "calories": "165 سعرة حرارية",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597634478924.jpg"
+      },
+      {
+        "id": "الشاي_2",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "شاي أحمر زجاج",
+        "calories": "55 سعرة حرارية",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623327815078.jpg"
+      },
+      {
+        "id": "الشاي_3",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "شاي احمر ورق",
+        "calories": "68 سعرة حرارية",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334621503272984.jpg"
+      },
+      {
+        "id": "الشاي_4",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "شاي أحمر ورق",
+        "calories": "44 سعرة حرارية",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999598404151140.jpg"
+      },
+      {
+        "id": "الشاي_5",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "كرك إبريق",
+        "calories": "290 سعرة حرارية",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999598587146852.jpg"
+      },
+      {
+        "id": "الشاي_6",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "كرك زجاج",
+        "calories": "100 سعرة حرارية",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623649419920.jpg"
+      },
+      {
+        "id": "الشاي_7",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "كرك ورق",
+        "calories": "95 سعرة حرارية",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272566457341052.jpg"
+      },
+      {
+        "id": "الشاي_8",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "كرك ورق",
+        "calories": "75 سعرة حرارية",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999599563958106.jpg"
+      },
+      {
+        "id": "الشاي_9",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "نعناع إبريق",
+        "calories": "160 سعرة حرارية",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999599908810270.jpg"
+      },
+      {
+        "id": "الشاي_10",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "نعناع زجاج",
+        "calories": "52 سعرة حرارية",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/mint_glass_17500533575100290.jpg"
+      },
+      {
+        "id": "الشاي_11",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "نعناع ورق",
+        "calories": "65 سعرة حرارية",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272567029373320.jpg"
+      },
+      {
+        "id": "الشاي_12",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "نعناع ورق",
+        "calories": "40 سعرة حرارية",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999600769039240.jpg"
+      },
+      {
+        "id": "الشاي_13",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "زنجبيل إبريق",
+        "calories": "160 سعرة حرارية",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999601165044202.jpg"
+      },
+      {
+        "id": "الشاي_14",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "زنجبيل زجاج",
+        "calories": "52 سعرة حرارية",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623861413378.jpg"
+      },
+      {
+        "id": "الشاي_15",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "زنجبيل ورق",
+        "calories": "66 سعرة حرارية",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272567486650308.jpg"
+      },
+      {
+        "id": "الشاي_16",
+        "categoryId": "الشاي",
+        "categoryName": "الشاي",
+        "name": "زنجبيل ورق",
+        "calories": "40 سعرة حرارية",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999602139630832.jpg"
+      },
+      {
+        "id": "القهوة_1",
+        "categoryId": "القهوة",
+        "categoryName": "القهوة",
+        "name": "دلة قهوة مع ضيافة",
+        "calories": "140 سعرة حرارية",
+        "price": "35.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999602798822526.jpg"
+      },
+      {
+        "id": "القهوة_2",
+        "categoryId": "القهوة",
+        "categoryName": "القهوة",
+        "name": "كوب قهوة سعودية",
+        "calories": "45 سعرة حرارية",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603123365294.jpg"
+      },
+      {
+        "id": "القهوة_3",
+        "categoryId": "القهوة",
+        "categoryName": "القهوة",
+        "name": "قهوة اليوم",
+        "calories": "90 سعرة حرارية",
+        "price": "9.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603357565498.jpg"
+      },
+      {
+        "id": "القهوة_4",
+        "categoryId": "القهوة",
+        "categoryName": "القهوة",
+        "name": "تمر",
+        "calories": "281 سعرة حرارية",
+        "price": "6.00",
+        "image": "N/A"
+      },
+      {
+        "id": "المشروبات_الباردة_1",
+        "categoryId": "المشروبات_الباردة",
+        "categoryName": "المشروبات الباردة",
+        "name": "ايس تي كركديه",
+        "calories": "N/A",
+        "price": "16.00",
+        "image": "N/A"
+      },
+      {
+        "id": "المشروبات_الباردة_2",
+        "categoryId": "المشروبات_الباردة",
+        "categoryName": "المشروبات الباردة",
+        "name": "ايس تي خوخ",
+        "calories": "N/A",
+        "price": "16.00",
+        "image": "N/A"
+      },
+      {
+        "id": "المشروبات_الباردة_3",
+        "categoryId": "المشروبات_الباردة",
+        "categoryName": "المشروبات الباردة",
+        "name": "ايس تي ليمون نعناع",
+        "calories": "N/A",
+        "price": "16.00",
+        "image": "N/A"
+      },
+      {
+        "id": "المشروبات_الباردة_4",
+        "categoryId": "المشروبات_الباردة",
+        "categoryName": "المشروبات الباردة",
+        "name": "ايس تي مانجو حبق",
+        "calories": "N/A",
+        "price": "16.00",
+        "image": "N/A"
+      },
+      {
+        "id": "مكسرات_وكيك_1",
+        "categoryId": "مكسرات_وكيك",
+        "categoryName": "مكسرات وكيك",
+        "name": "شابورة",
+        "calories": "70 سعرة حرارية",
+        "price": "6.00",
+        "image": "N/A"
+      },
+      {
+        "id": "مكسرات_وكيك_2",
+        "categoryId": "مكسرات_وكيك",
+        "categoryName": "مكسرات وكيك",
+        "name": "مكسرات مشكلة",
+        "calories": "135 سعرة حرارية",
+        "price": "10.00",
+        "image": "N/A"
+      },
+      {
+        "id": "مكسرات_وكيك_3",
+        "categoryId": "مكسرات_وكيك",
+        "categoryName": "مكسرات وكيك",
+        "name": "مكسرات ياباني",
+        "calories": "120 سعرة حرارية",
+        "price": "10.00",
+        "image": "N/A"
+      }
+    ],
+    "en": [
+      {
+        "id": "breakfast_1",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "His Liver",
+        "calories": "720 kcal",
+        "price": "22.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203349376774.jpg"
+      },
+      {
+        "id": "breakfast_2",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "Chicken Achay Stir Fry",
+        "calories": "375 kcal",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592569434300.jpg"
+      },
+      {
+        "id": "breakfast_3",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "Achay Beans",
+        "calories": "130 kcal",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592937188498.jpg"
+      },
+      {
+        "id": "breakfast_4",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "Achay Shakshouka",
+        "calories": "173 kcal",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593218704682.jpg"
+      },
+      {
+        "id": "breakfast_5",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "Haloumi",
+        "calories": "560 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203111460866.jpg"
+      },
+      {
+        "id": "breakfast_6",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "Hummus Plate",
+        "calories": "364 kcal",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334616688693932.jpg"
+      },
+      {
+        "id": "breakfast_7",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "Falafel Plate",
+        "calories": "342 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334617600185074.jpg"
+      },
+      {
+        "id": "breakfast_8",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "Turkish Eggs",
+        "calories": "380 kcal",
+        "price": "18.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17373460123077674.jpg"
+      },
+      {
+        "id": "breakfast_9",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "Tahini plate",
+        "calories": "190 kcal",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/tahini_plate_17500569271600698.jpg"
+      },
+      {
+        "id": "breakfast_10",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "pickled plate",
+        "calories": "14 kcal",
+        "price": "5.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/pickled_plate_17500569820492172.jpg"
+      },
+      {
+        "id": "breakfast_11",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "honey plate",
+        "calories": "63 kcal",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/honey_plate_17500571274104894.jpg"
+      },
+      {
+        "id": "breakfast_12",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "A plate of cream",
+        "calories": "165 kcal",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/a_plate_of_cream_17500572136452560.jpg"
+      },
+      {
+        "id": "breakfast_13",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "plate of olives",
+        "calories": "85 kcal",
+        "price": "9.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/plate_of_olives_17500573025135424.jpg"
+      },
+      {
+        "id": "breakfast_14",
+        "categoryId": "breakfast",
+        "categoryName": "Breakfast",
+        "name": "liquid cheese plate",
+        "calories": "220 kcal",
+        "price": "5.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/liquid_cheese_plate_17500574196470084.jpg"
+      },
+      {
+        "id": "group_offers_1",
+        "categoryId": "group_offers",
+        "categoryName": "Group Offers",
+        "name": "Large Breakfast Meal",
+        "calories": "1375 kcal",
+        "price": "75.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999591418493138.jpg"
+      },
+      {
+        "id": "group_offers_2",
+        "categoryId": "group_offers",
+        "categoryName": "Group Offers",
+        "name": "Big Takeaway Breakfast",
+        "calories": "1375 kcal",
+        "price": "85.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17048735751271090.jpg"
+      },
+      {
+        "id": "group_offers_3",
+        "categoryId": "group_offers",
+        "categoryName": "Group Offers",
+        "name": "Dry Breakfast",
+        "calories": "865 kcal",
+        "price": "55.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592087784376.jpg"
+      },
+      {
+        "id": "manakish_1",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Eggplant Pie",
+        "calories": "280 kcal",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609075054284.jpg"
+      },
+      {
+        "id": "manakish_2",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Flower Pie",
+        "calories": "270 kcal",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609441987010.jpg"
+      },
+      {
+        "id": "manakish_3",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Thyme Pie",
+        "calories": "194 kcal",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609736315480.jpg"
+      },
+      {
+        "id": "manakish_4",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Pepperoni Pie",
+        "calories": "345 kcal",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610056448178.jpg"
+      },
+      {
+        "id": "manakish_5",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Chicken Cheese Pie",
+        "calories": "430 kcal",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610282790068.jpg"
+      },
+      {
+        "id": "manakish_6",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Indian Chicken Tikka Pie",
+        "calories": "430 kcal",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610513189562.jpg"
+      },
+      {
+        "id": "manakish_7",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Chicken Truffle Pie",
+        "calories": "435 kcal",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610726349654.jpg"
+      },
+      {
+        "id": "manakish_8",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Akkawi Cheese Pie",
+        "calories": "170 kcal",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610978352538.jpg"
+      },
+      {
+        "id": "manakish_9",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Spicy Tuna Pie",
+        "calories": "220 kcal",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999611181622016.jpg"
+      },
+      {
+        "id": "manakish_10",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Mozzarella Pie",
+        "calories": "224 kcal",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17181962674940614.jpg"
+      },
+      {
+        "id": "manakish_11",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Labneh Pie",
+        "calories": "200 kcal",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999619219978964.jpg"
+      },
+      {
+        "id": "manakish_12",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Liquid Cheese Pie",
+        "calories": "220 kcal",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999619010959332.jpg"
+      },
+      {
+        "id": "manakish_13",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Cheese  and Tahini Pie",
+        "calories": "220 kcal",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999611729456888.jpg"
+      },
+      {
+        "id": "manakish_14",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Egg and Cheese Pie",
+        "calories": "270 kcal",
+        "price": "12.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999612007430760.jpg"
+      },
+      {
+        "id": "manakish_15",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Kashkaval Cheese Pie",
+        "calories": "289 kcal",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999618723999908.jpg"
+      },
+      {
+        "id": "manakish_16",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Spinach Pie",
+        "calories": "190 kcal",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999612431514750.jpg"
+      },
+      {
+        "id": "manakish_17",
+        "categoryId": "manakish",
+        "categoryName": "Manakish",
+        "name": "Falafel Pie",
+        "calories": "225 kcal",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999614501709654.jpg"
+      },
+      {
+        "id": "sweets_and_cell_1",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Sesame Beehive",
+        "calories": "300 kcal",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593743283816.jpg"
+      },
+      {
+        "id": "sweets_and_cell_2",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Sesame Beehive",
+        "calories": "90 kcal",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594046112364.jpg"
+      },
+      {
+        "id": "sweets_and_cell_3",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Kunafa Cell",
+        "calories": "325 kcal",
+        "price": "28.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594336835204.jpg"
+      },
+      {
+        "id": "sweets_and_cell_4",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Kunafa Cell",
+        "calories": "130 kcal",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594673407078.jpg"
+      },
+      {
+        "id": "sweets_and_cell_5",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Pecan Beehive",
+        "calories": "300 kcal",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595024801624.jpg"
+      },
+      {
+        "id": "sweets_and_cell_6",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Pecan Beehive",
+        "calories": "90 kcal",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595322988384.jpg"
+      },
+      {
+        "id": "sweets_and_cell_7",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Cheese Bites",
+        "calories": "252 kcal",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595553769670.jpg"
+      },
+      {
+        "id": "sweets_and_cell_8",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Cheese Fingers",
+        "calories": "260 kcal",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595855678890.jpg"
+      },
+      {
+        "id": "sweets_and_cell_9",
+        "categoryId": "sweets_and_cell",
+        "categoryName": "Sweets and Cell",
+        "name": "Kunafa Achay",
+        "calories": "395 kcal",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999596233906436.jpg"
+      },
+      {
+        "id": "samosa_and_its_derivatives_1",
+        "categoryId": "samosa_and_its_derivatives",
+        "categoryName": "Samosa and Its Derivatives",
+        "name": "Chickens Samosa",
+        "calories": "640 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052207494541938.jpg"
+      },
+      {
+        "id": "samosa_and_its_derivatives_2",
+        "categoryId": "samosa_and_its_derivatives",
+        "categoryName": "Samosa and Its Derivatives",
+        "name": "Cheese Samosa",
+        "calories": "565 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597263853306.jpg"
+      },
+      {
+        "id": "samosa_and_its_derivatives_3",
+        "categoryId": "samosa_and_its_derivatives",
+        "categoryName": "Samosa and Its Derivatives",
+        "name": "سمبوسة مشكل",
+        "calories": "570 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17399416981268662.jpg"
+      },
+      {
+        "id": "samosa_and_its_derivatives_4",
+        "categoryId": "samosa_and_its_derivatives",
+        "categoryName": "Samosa and Its Derivatives",
+        "name": "with Olives and Salty Cheese Samosa",
+        "calories": "595 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17143015592258806.jpg"
+      },
+      {
+        "id": "samosa_and_its_derivatives_5",
+        "categoryId": "samosa_and_its_derivatives",
+        "categoryName": "Samosa and Its Derivatives",
+        "name": "Chicken Musakhan",
+        "calories": "336 kcal",
+        "price": "22.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17118304442786692.jpg"
+      },
+      {
+        "id": "samosa_and_its_derivatives_6",
+        "categoryId": "samosa_and_its_derivatives",
+        "categoryName": "Samosa and Its Derivatives",
+        "name": "Baked chicken samosa",
+        "calories": "620 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_chicken_samosa_17543988333377506.jpg"
+      },
+      {
+        "id": "samosa_and_its_derivatives_7",
+        "categoryId": "samosa_and_its_derivatives",
+        "categoryName": "Samosa and Its Derivatives",
+        "name": "Baked cheese samosa",
+        "calories": "540 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_cheese_samosa_17543988780870388.jpg"
+      },
+      {
+        "id": "samosa_and_its_derivatives_8",
+        "categoryId": "samosa_and_its_derivatives",
+        "categoryName": "Samosa and Its Derivatives",
+        "name": "Baked salty cheese samosa",
+        "calories": "575 kcal",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_salty_cheese_samosa_17543990024804698.jpg"
+      },
+      {
+        "id": "tea_1",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Red Tea Pot",
+        "calories": "165 kcal",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597634478924.jpg"
+      },
+      {
+        "id": "tea_2",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Red Tea Glass",
+        "calories": "55 kcal",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623327815078.jpg"
+      },
+      {
+        "id": "tea_3",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Red Tea Paper Cup",
+        "calories": "68 kcal",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334621503272984.jpg"
+      },
+      {
+        "id": "tea_4",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Red Tea Paper Cup",
+        "calories": "44 kcal",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999598404151140.jpg"
+      },
+      {
+        "id": "tea_5",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Kark Pot",
+        "calories": "290 kcal",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999598587146852.jpg"
+      },
+      {
+        "id": "tea_6",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Kark Glass",
+        "calories": "100 kcal",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623649419920.jpg"
+      },
+      {
+        "id": "tea_7",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Kark Paper Cup",
+        "calories": "95 kcal",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272566457341052.jpg"
+      },
+      {
+        "id": "tea_8",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Karak Paper Cup",
+        "calories": "75 kcal",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999599563958106.jpg"
+      },
+      {
+        "id": "tea_9",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Mint Pot",
+        "calories": "160 kcal",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999599908810270.jpg"
+      },
+      {
+        "id": "tea_10",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Mint Glass",
+        "calories": "52 kcal",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/mint_glass_17500533575100290.jpg"
+      },
+      {
+        "id": "tea_11",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Mint Paper Cup",
+        "calories": "65 kcal",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272567029373320.jpg"
+      },
+      {
+        "id": "tea_12",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Mint Paper Cup",
+        "calories": "40 kcal",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999600769039240.jpg"
+      },
+      {
+        "id": "tea_13",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Ginger Pot",
+        "calories": "160 kcal",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999601165044202.jpg"
+      },
+      {
+        "id": "tea_14",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Ginger Glass",
+        "calories": "52 kcal",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623861413378.jpg"
+      },
+      {
+        "id": "tea_15",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Ginger Paper Cup",
+        "calories": "66 kcal",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272567486650308.jpg"
+      },
+      {
+        "id": "tea_16",
+        "categoryId": "tea",
+        "categoryName": "Tea",
+        "name": "Ginger Paper Cup",
+        "calories": "40 kcal",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999602139630832.jpg"
+      },
+      {
+        "id": "coffee_1",
+        "categoryId": "coffee",
+        "categoryName": "Coffee",
+        "name": "Saudi Coffee Pot",
+        "calories": "140 kcal",
+        "price": "35.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999602798822526.jpg"
+      },
+      {
+        "id": "coffee_2",
+        "categoryId": "coffee",
+        "categoryName": "Coffee",
+        "name": "Saudi Coffee Cup",
+        "calories": "45 kcal",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603123365294.jpg"
+      },
+      {
+        "id": "coffee_3",
+        "categoryId": "coffee",
+        "categoryName": "Coffee",
+        "name": "Coffee of The Day",
+        "calories": "90 kcal",
+        "price": "9.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603357565498.jpg"
+      },
+      {
+        "id": "coffee_4",
+        "categoryId": "coffee",
+        "categoryName": "Coffee",
+        "name": "Dates",
+        "calories": "281 kcal",
+        "price": "6.00",
+        "image": "N/A"
+      },
+      {
+        "id": "cold_drinks_1",
+        "categoryId": "cold_drinks",
+        "categoryName": "Cold Drinks",
+        "name": "Ice Tea Hibiscus",
+        "calories": "N/A",
+        "price": "16.00",
+        "image": "N/A"
+      },
+      {
+        "id": "cold_drinks_2",
+        "categoryId": "cold_drinks",
+        "categoryName": "Cold Drinks",
+        "name": "Ice Tea Peach",
+        "calories": "N/A",
+        "price": "16.00",
+        "image": "N/A"
+      },
+      {
+        "id": "cold_drinks_3",
+        "categoryId": "cold_drinks",
+        "categoryName": "Cold Drinks",
+        "name": "Ice Tea Lemon Mint",
+        "calories": "N/A",
+        "price": "16.00",
+        "image": "N/A"
+      },
+      {
+        "id": "cold_drinks_4",
+        "categoryId": "cold_drinks",
+        "categoryName": "Cold Drinks",
+        "name": "Ice Tea Mango",
+        "calories": "N/A",
+        "price": "16.00",
+        "image": "N/A"
+      },
+      {
+        "id": "nuts_and_shabura_1",
+        "categoryId": "nuts_and_shabura",
+        "categoryName": "Nuts and Shabura",
+        "name": "Shabura",
+        "calories": "70 kcal",
+        "price": "6.00",
+        "image": "N/A"
+      },
+      {
+        "id": "nuts_and_shabura_2",
+        "categoryId": "nuts_and_shabura",
+        "categoryName": "Nuts and Shabura",
+        "name": "Mixed Nuts",
+        "calories": "135 kcal",
+        "price": "10.00",
+        "image": "N/A"
+      },
+      {
+        "id": "nuts_and_shabura_3",
+        "categoryId": "nuts_and_shabura",
+        "categoryName": "Nuts and Shabura",
+        "name": "Japanese Nuts",
+        "calories": "120 kcal",
+        "price": "10.00",
+        "image": "N/A"
+      }
+    ]
+  },
+  "categories": {
+    "ar": {
+      "وجبات_الفطور": "وجبات الفطور",
+      "عروض_الجمعات": "عروض الجمعات",
+      "المناقيش": "المناقيش",
+      "الحلى": "الحلى",
+      "سمبوسه_وخفايف": "سمبوسه وخفايف",
+      "الشاي": "الشاي",
+      "القهوة": "القهوة",
+      "المشروبات_الباردة": "المشروبات الباردة",
+      "مكسرات_وكيك": "مكسرات وكيك"
+    },
+    "en": {
+      "breakfast": "Breakfast",
+      "group_offers": "Group Offers",
+      "manakish": "Manakish",
+      "sweets_and_cell": "Sweets and Cell",
+      "samosa_and_its_derivatives": "Samosa and Its Derivatives",
+      "tea": "Tea",
+      "coffee": "Coffee",
+      "cold_drinks": "Cold Drinks",
+      "nuts_and_shabura": "Nuts and Shabura"
+    }
+  }
+}

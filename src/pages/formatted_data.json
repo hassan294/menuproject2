@@ -1,0 +1,1186 @@
+{
+  "translations": {
+    "ar": {
+      "restaurantName": "اچای",
+      "tagline": "تجربة طعام استثنائية",
+      "exploreMenu": "استكشف القائمة",
+      "categories": {
+        "all": "الكل",
+        "breakfast": "فطور",
+        "main": "وجبات رئيسية",
+        "drinks": "مشروبات",
+        "desserts": "حلويات",
+        "salads": "سلطات"
+      },
+      "viewModes": {
+        "grid": "شبكة",
+        "list": "قائمة"
+      },
+      "currency": "₪",
+      "addToCart": "أضف للسلة",
+      "followUs": "تابعنا"
+    },
+    "en": {
+      "restaurantName": "Achay",
+      "tagline": "Exceptional Dining Experience",
+      "exploreMenu": "Explore Menu",
+      "categories": {
+        "all": "All",
+        "breakfast": "Breakfast",
+        "main": "Main Dishes",
+        "drinks": "Drinks",
+        "desserts": "Desserts",
+        "salads": "Salads"
+      },
+      "viewModes": {
+        "grid": "Grid",
+        "list": "List"
+      },
+      "currency": "$",
+      "addToCart": "Add to Cart",
+      "followUs": "Follow Us"
+    }
+  },
+  "menuItems": {
+    "en": [
+      {
+        "id": 1,
+        "name": "His Liver",
+        "description": "",
+        "price": "22.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203349376774.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 2,
+        "name": "Chicken Achay Stir Fry",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592569434300.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 3,
+        "name": "Achay Beans",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592937188498.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 4,
+        "name": "Achay Shakshouka",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593218704682.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 5,
+        "name": "Haloumi",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203111460866.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 6,
+        "name": "Hummus Plate",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334616688693932.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 7,
+        "name": "Falafel Plate",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334617600185074.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 8,
+        "name": "Turkish Eggs",
+        "description": "",
+        "price": "18.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17373460123077674.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 9,
+        "name": "Tahini plate",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/tahini_plate_17500569271600698.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 10,
+        "name": "pickled plate",
+        "description": "",
+        "price": "5.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/pickled_plate_17500569820492172.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 11,
+        "name": "honey plate",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/honey_plate_17500571274104894.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 12,
+        "name": "A plate of cream",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/a_plate_of_cream_17500572136452560.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 13,
+        "name": "plate of olives",
+        "description": "",
+        "price": "9.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/plate_of_olives_17500573025135424.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 14,
+        "name": "liquid cheese plate",
+        "description": "",
+        "price": "5.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/liquid_cheese_plate_17500574196470084.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 15,
+        "name": "Large Breakfast Meal",
+        "description": "",
+        "price": "75.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999591418493138.jpg",
+        "category": "main"
+      },
+      {
+        "id": 16,
+        "name": "Big Takeaway Breakfast",
+        "description": "",
+        "price": "85.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17048735751271090.jpg",
+        "category": "main"
+      },
+      {
+        "id": 17,
+        "name": "Dry Breakfast",
+        "description": "",
+        "price": "55.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592087784376.jpg",
+        "category": "main"
+      },
+      {
+        "id": 18,
+        "name": "Eggplant Pie",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609075054284.jpg",
+        "category": "main"
+      },
+      {
+        "id": 19,
+        "name": "Flower Pie",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609441987010.jpg",
+        "category": "main"
+      },
+      {
+        "id": 20,
+        "name": "Thyme Pie",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609736315480.jpg",
+        "category": "main"
+      },
+      {
+        "id": 21,
+        "name": "Pepperoni Pie",
+        "description": "",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610056448178.jpg",
+        "category": "main"
+      },
+      {
+        "id": 22,
+        "name": "Chicken Cheese Pie",
+        "description": "",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610282790068.jpg",
+        "category": "main"
+      },
+      {
+        "id": 23,
+        "name": "Indian Chicken Tikka Pie",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610513189562.jpg",
+        "category": "main"
+      },
+      {
+        "id": 24,
+        "name": "Chicken Truffle Pie",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610726349654.jpg",
+        "category": "main"
+      },
+      {
+        "id": 25,
+        "name": "Akkawi Cheese Pie",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610978352538.jpg",
+        "category": "main"
+      },
+      {
+        "id": 26,
+        "name": "Spicy Tuna Pie",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999611181622016.jpg",
+        "category": "main"
+      },
+      {
+        "id": 27,
+        "name": "Mozzarella Pie",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17181962674940614.jpg",
+        "category": "main"
+      },
+      {
+        "id": 28,
+        "name": "Labneh Pie",
+        "description": "",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999619219978964.jpg",
+        "category": "main"
+      },
+      {
+        "id": 29,
+        "name": "Liquid Cheese Pie",
+        "description": "",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999619010959332.jpg",
+        "category": "main"
+      },
+      {
+        "id": 30,
+        "name": "Cheese  and Tahini Pie",
+        "description": "",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999611729456888.jpg",
+        "category": "main"
+      },
+      {
+        "id": 31,
+        "name": "Egg and Cheese Pie",
+        "description": "",
+        "price": "12.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999612007430760.jpg",
+        "category": "main"
+      },
+      {
+        "id": 32,
+        "name": "Kashkaval Cheese Pie",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999618723999908.jpg",
+        "category": "main"
+      },
+      {
+        "id": 33,
+        "name": "Spinach Pie",
+        "description": "",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999612431514750.jpg",
+        "category": "main"
+      },
+      {
+        "id": 34,
+        "name": "Falafel Pie",
+        "description": "",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999614501709654.jpg",
+        "category": "main"
+      },
+      {
+        "id": 35,
+        "name": "Sesame Beehive",
+        "description": "",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593743283816.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 36,
+        "name": "Sesame Beehive",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594046112364.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 37,
+        "name": "Kunafa Cell",
+        "description": "",
+        "price": "28.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594336835204.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 38,
+        "name": "Kunafa Cell",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594673407078.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 39,
+        "name": "Pecan Beehive",
+        "description": "",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595024801624.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 40,
+        "name": "Pecan Beehive",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595322988384.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 41,
+        "name": "Cheese Bites",
+        "description": "",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595553769670.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 42,
+        "name": "Cheese Fingers",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595855678890.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 43,
+        "name": "Kunafa Achay",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999596233906436.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 44,
+        "name": "Chickens Samosa",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052207494541938.jpg",
+        "category": "main"
+      },
+      {
+        "id": 45,
+        "name": "Cheese Samosa",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597263853306.jpg",
+        "category": "main"
+      },
+      {
+        "id": 46,
+        "name": "سمبوسة مشكل",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17399416981268662.jpg",
+        "category": "main"
+      },
+      {
+        "id": 47,
+        "name": "with Olives and Salty Cheese Samosa",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17143015592258806.jpg",
+        "category": "main"
+      },
+      {
+        "id": 48,
+        "name": "Chicken Musakhan",
+        "description": "",
+        "price": "22.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17118304442786692.jpg",
+        "category": "main"
+      },
+      {
+        "id": 49,
+        "name": "Baked chicken samosa",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_chicken_samosa_17543988333377506.jpg",
+        "category": "main"
+      },
+      {
+        "id": 50,
+        "name": "Baked cheese samosa",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_cheese_samosa_17543988780870388.jpg",
+        "category": "main"
+      },
+      {
+        "id": 51,
+        "name": "Baked salty cheese samosa",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_salty_cheese_samosa_17543990024804698.jpg",
+        "category": "main"
+      },
+      {
+        "id": 52,
+        "name": "Red Tea Pot",
+        "description": "",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597634478924.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 53,
+        "name": "Red Tea Glass",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623327815078.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 54,
+        "name": "Red Tea Paper Cup",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334621503272984.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 55,
+        "name": "Red Tea Paper Cup",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999598404151140.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 56,
+        "name": "Kark Pot",
+        "description": "",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999598587146852.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 57,
+        "name": "Kark Glass",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623649419920.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 58,
+        "name": "Kark Paper Cup",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272566457341052.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 59,
+        "name": "Karak Paper Cup",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999599563958106.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 60,
+        "name": "Mint Pot",
+        "description": "",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999599908810270.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 61,
+        "name": "Mint Glass",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/mint_glass_17500533575100290.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 62,
+        "name": "Mint Paper Cup",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272567029373320.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 63,
+        "name": "Mint Paper Cup",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999600769039240.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 64,
+        "name": "Ginger Pot",
+        "description": "",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999601165044202.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 65,
+        "name": "Ginger Glass",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623861413378.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 66,
+        "name": "Ginger Paper Cup",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272567486650308.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 67,
+        "name": "Ginger Paper Cup",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999602139630832.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 68,
+        "name": "Saudi Coffee Pot",
+        "description": "",
+        "price": "35.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999602798822526.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 69,
+        "name": "Saudi Coffee Cup",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603123365294.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 70,
+        "name": "Coffee of The Day",
+        "description": "",
+        "price": "9.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603357565498.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 71,
+        "name": "Japanese Nuts",
+        "description": "",
+        "price": "6.00",
+        "image": "N/A",
+        "category": "drinks"
+      }
+    ],
+    "ar": [
+      {
+        "id": 1,
+        "name": "كبده",
+        "description": "",
+        "price": "22.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203349376774.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 2,
+        "name": "مقلقل دجاج اچاي",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592569434300.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 3,
+        "name": "فول اچاي",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592937188498.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 4,
+        "name": "شكشوكة اچاي",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593218704682.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 5,
+        "name": "حلوم",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203111460866.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 6,
+        "name": "صحن حمص",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334616688693932.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 7,
+        "name": "صحن فلافل",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334617600185074.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 8,
+        "name": "بيض تركي",
+        "description": "",
+        "price": "18.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17373460123077674.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 9,
+        "name": "صحن طحينية",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/tahini_plate_17500569271600698.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 10,
+        "name": "صحن مخلل",
+        "description": "",
+        "price": "5.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/pickled_plate_17500569820492172.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 11,
+        "name": "صحن عسل",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/honey_plate_17500571274104894.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 12,
+        "name": "صحن قشطة",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/a_plate_of_cream_17500572136452560.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 13,
+        "name": "صحن زيتون",
+        "description": "",
+        "price": "9.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/plate_of_olives_17500573025135424.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 14,
+        "name": "صحن جبن سائل",
+        "description": "",
+        "price": "5.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/liquid_cheese_plate_17500574196470084.jpg",
+        "category": "breakfast"
+      },
+      {
+        "id": 15,
+        "name": "وجبة فطور كبيرة محلي",
+        "description": "",
+        "price": "75.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999591418493138.jpg",
+        "category": "main"
+      },
+      {
+        "id": 16,
+        "name": "بوكس فطور سفري",
+        "description": "",
+        "price": "85.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17048735751271090.jpg",
+        "category": "main"
+      },
+      {
+        "id": 17,
+        "name": "وجبة فطور نواشف",
+        "description": "",
+        "price": "55.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999592087784376.jpg",
+        "category": "main"
+      },
+      {
+        "id": 18,
+        "name": "فطيرة الباذنجان",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609075054284.jpg",
+        "category": "main"
+      },
+      {
+        "id": 19,
+        "name": "فطيرة الزهرة",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609441987010.jpg",
+        "category": "main"
+      },
+      {
+        "id": 20,
+        "name": "فطيرة زعتر",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609736315480.jpg",
+        "category": "main"
+      },
+      {
+        "id": 21,
+        "name": "فطيرة بيبروني",
+        "description": "",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610056448178.jpg",
+        "category": "main"
+      },
+      {
+        "id": 22,
+        "name": "فطيرة دجاج جبن",
+        "description": "",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610282790068.jpg",
+        "category": "main"
+      },
+      {
+        "id": 23,
+        "name": "فطيرة دجاج التكا الهندي",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610513189562.jpg",
+        "category": "main"
+      },
+      {
+        "id": 24,
+        "name": "فطيرة دجاج ترافل",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610726349654.jpg",
+        "category": "main"
+      },
+      {
+        "id": 25,
+        "name": "فطيرة جبن عكاوي",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999610978352538.jpg",
+        "category": "main"
+      },
+      {
+        "id": 26,
+        "name": "فطيرة تونة سبايسي",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999611181622016.jpg",
+        "category": "main"
+      },
+      {
+        "id": 27,
+        "name": "فطيرة موزاريلا",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17181962674940614.jpg",
+        "category": "main"
+      },
+      {
+        "id": 28,
+        "name": "فطيرة لبنة",
+        "description": "",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999619219978964.jpg",
+        "category": "main"
+      },
+      {
+        "id": 29,
+        "name": "فطيرة جبن سائل",
+        "description": "",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999619010959332.jpg",
+        "category": "main"
+      },
+      {
+        "id": 30,
+        "name": "فطيرة جبن وطحينية",
+        "description": "",
+        "price": "11.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999611729456888.jpg",
+        "category": "main"
+      },
+      {
+        "id": 31,
+        "name": "فطيرة بيض وجبن",
+        "description": "",
+        "price": "12.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999612007430760.jpg",
+        "category": "main"
+      },
+      {
+        "id": 32,
+        "name": "فطيرة جبن قشقوان",
+        "description": "",
+        "price": "13.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999618723999908.jpg",
+        "category": "main"
+      },
+      {
+        "id": 33,
+        "name": "فطيرة سبانخ",
+        "description": "",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999612431514750.jpg",
+        "category": "main"
+      },
+      {
+        "id": 34,
+        "name": "فطيرة فلافل",
+        "description": "",
+        "price": "14.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999614501709654.jpg",
+        "category": "main"
+      },
+      {
+        "id": 35,
+        "name": "خلية نحل سمسم",
+        "description": "",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593743283816.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 36,
+        "name": "خلية نحل سمسم",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594046112364.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 37,
+        "name": "خلية نحل كنافة",
+        "description": "",
+        "price": "28.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594336835204.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 38,
+        "name": "خلية نحل كنافة",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999594673407078.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 39,
+        "name": "خلية نحل بيكان",
+        "description": "",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595024801624.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 40,
+        "name": "خلية نحل بيكان",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595322988384.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 41,
+        "name": "لقيمات جبن",
+        "description": "",
+        "price": "25.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595553769670.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 42,
+        "name": "اصابع جبن",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999595855678890.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 43,
+        "name": "كنافة اچاي",
+        "description": "",
+        "price": "15.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999596233906436.jpg",
+        "category": "desserts"
+      },
+      {
+        "id": 44,
+        "name": "سمبوسة دجاج",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052207494541938.jpg",
+        "category": "main"
+      },
+      {
+        "id": 45,
+        "name": "سمبوسة جبن",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597263853306.jpg",
+        "category": "main"
+      },
+      {
+        "id": 46,
+        "name": "سمبوسة مشكل",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17399416981268662.jpg",
+        "category": "main"
+      },
+      {
+        "id": 47,
+        "name": "سمبوسة جبن المالح",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17143015592258806.jpg",
+        "category": "main"
+      },
+      {
+        "id": 48,
+        "name": "مسخن دجاج",
+        "description": "",
+        "price": "22.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17118304442786692.jpg",
+        "category": "main"
+      },
+      {
+        "id": 49,
+        "name": "سمبوسة دجاج بالفرن",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_chicken_samosa_17543988333377506.jpg",
+        "category": "main"
+      },
+      {
+        "id": 50,
+        "name": "سمبوسة جبن بالفرن",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_cheese_samosa_17543988780870388.jpg",
+        "category": "main"
+      },
+      {
+        "id": 51,
+        "name": "سمبوسة جبن مالح بالفرن",
+        "description": "",
+        "price": "20.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/baked_salty_cheese_samosa_17543990024804698.jpg",
+        "category": "main"
+      },
+      {
+        "id": 52,
+        "name": "شاي أحمر إبريق",
+        "description": "",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597634478924.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 53,
+        "name": "شاي أحمر زجاج",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623327815078.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 54,
+        "name": "شاي احمر ورق",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334621503272984.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 55,
+        "name": "شاي أحمر ورق",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999598404151140.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 56,
+        "name": "كرك إبريق",
+        "description": "",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999598587146852.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 57,
+        "name": "كرك زجاج",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623649419920.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 58,
+        "name": "كرك ورق",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272566457341052.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 59,
+        "name": "كرك ورق",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999599563958106.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 60,
+        "name": "نعناع إبريق",
+        "description": "",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999599908810270.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 61,
+        "name": "نعناع زجاج",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/mint_glass_17500533575100290.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 62,
+        "name": "نعناع ورق",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272567029373320.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 63,
+        "name": "نعناع ورق",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999600769039240.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 64,
+        "name": "زنجبيل إبريق",
+        "description": "",
+        "price": "24.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999601165044202.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 65,
+        "name": "زنجبيل زجاج",
+        "description": "",
+        "price": "10.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17334623861413378.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 66,
+        "name": "زنجبيل ورق",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17272567486650308.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 67,
+        "name": "زنجبيل ورق",
+        "description": "",
+        "price": "6.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999602139630832.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 68,
+        "name": "دلة قهوة مع ضيافة",
+        "description": "",
+        "price": "35.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999602798822526.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 69,
+        "name": "كوب قهوة سعودية",
+        "description": "",
+        "price": "8.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603123365294.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 70,
+        "name": "قهوة اليوم",
+        "description": "",
+        "price": "9.00",
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603357565498.jpg",
+        "category": "drinks"
+      },
+      {
+        "id": 71,
+        "name": "مكسرات ياباني",
+        "description": "",
+        "price": "6.00",
+        "image": "N/A",
+        "category": "drinks"
+      }
+    ]
+  }
+}
