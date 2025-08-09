@@ -63,7 +63,57 @@ const RestaurantWebsite = () => {
   //   })),
   // ];
 
+  // const categories = useMemo(() => {
+  //   const categoryMap = new Map();
+  //   menuItems.forEach((item) => {
+  //     if (!categoryMap.has(item.categoryId)) {
+  //       categoryMap.set(item.categoryId, item.categoryName);
+  //     }
+  //   });
+
+  //   return Array.from(categoryMap.entries()).map(([id, name]) => ({
+  //     id,
+  //     name,
+  //     icon: "🍴",
+  //   }));
+  // }, [menuItems]);
+
+  const arabicCategoryNames = {
+    breakfast: "إفطار",
+    group_offers: "عروض المجموعة",
+    manakish: "مناقيش",
+    sweets_and_cell: "حلويات وسيل",
+    samosa_and_its_derivatives: "سمبوسة ومشتقاتها",
+    tea: "شاي",
+    coffee: "قهوة",
+    nuts_and_shabura: "مكسرات وشابورة",
+    cold_drinks: "مشروبات باردة",
+  };
+
   const categories = useMemo(() => {
+    const iconMap = {
+      breakfast: "🥐",
+      group_offers: "👥",
+      manakish: "🍕",
+      sweets_and_cell: "🍰",
+      samosa_and_its_derivatives: "🥟",
+      tea: "🍵",
+      coffee: "☕",
+      nuts_and_shabura: "🥜",
+      cold_drinks: "🥤",
+
+      // Arabic keys:
+      وجبات_الفطور: "🥐",
+      عروض_الجمعات: "👥",
+      المناقيش: "🍕",
+      الحلى: "🍰",
+      سمبوسه_وخفايف: "🥟",
+      الشاي: "🍵",
+      القهوة: "☕",
+      المشروبات_الباردة: "🥤",
+      مكسرات_وكيك: "🥜",
+    };
+
     const categoryMap = new Map();
     menuItems.forEach((item) => {
       if (!categoryMap.has(item.categoryId)) {
@@ -74,7 +124,7 @@ const RestaurantWebsite = () => {
     return Array.from(categoryMap.entries()).map(([id, name]) => ({
       id,
       name,
-      icon: "🍴",
+      icon: iconMap[id] || "🍴", // fallback if not in iconMap
     }));
   }, [menuItems]);
 
@@ -286,7 +336,18 @@ const RestaurantWebsite = () => {
       {/* Sticky Navbar */}
       <nav className={`sticky-navbar ${isNavbarVisible ? "visible" : ""}`}>
         <div className="navbar-content">
-          <div className="navbar-logo">🍽️</div>
+          <div className="navbar-logo">
+            <img
+              src={`${process.env.PUBLIC_URL}/achay-logo-removebg-preview.png`}
+              alt="Achay Logo"
+              style={{
+                backgroundColor: "#FFFFFF",
+                height: "40px",
+                objectFit: "contain",
+              }}
+            />
+          </div>
+
           <div className="navbar-title">{t.restaurantName}</div>
           <div className="navbar-actions">
             <button className="language-toggle" onClick={toggleLanguage}>
@@ -301,7 +362,7 @@ const RestaurantWebsite = () => {
         <div className="hero-background">
           <div className="hero-overlay"></div>
           <img
-            src="/heroImage.jpg?height=400&width=800&text=Restaurant+Hero"
+            src={`${process.env.PUBLIC_URL}/heroImage.jpg`}
             alt="Restaurant Hero"
             className="hero-image"
           />
@@ -325,7 +386,7 @@ const RestaurantWebsite = () => {
         <p className="follow-text">{t.followUs}</p>
         <div className="social-icons">
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/achay_tea1/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon instagram"
@@ -333,7 +394,7 @@ const RestaurantWebsite = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://www.tiktok.com"
+            href="https://tiktok.com/@achay_tea1"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon tiktok"
@@ -341,7 +402,7 @@ const RestaurantWebsite = () => {
             <FaTiktok />
           </a>
           <a
-            href="https://www.snapchat.com"
+            href="https://www.snapchat.com/add/JZlEucg1/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon snapchat"
@@ -349,7 +410,7 @@ const RestaurantWebsite = () => {
             <FaSnapchatGhost />
           </a>
           <a
-            href="https://wa.me/1234567890"
+            href="https://wa.me/+966506185545"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon whatsapp"
@@ -360,7 +421,7 @@ const RestaurantWebsite = () => {
             <FaPhoneAlt />
           </a>
           <a
-            href="https://www.twitter.com"
+            href="https://twitter.com/achay_tea1"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon twitter"
@@ -368,7 +429,7 @@ const RestaurantWebsite = () => {
             <FaTwitter />
           </a>
           <a
-            href="https://maps.google.com/?q=Your+Location"
+            href="https://maps.app.goo.gl/ysE4bW8YZcCaGhTV6"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon location"
@@ -376,7 +437,7 @@ const RestaurantWebsite = () => {
             <FaMapMarkerAlt />
           </a>
           <a
-            href="https://www.yourwebsite.com"
+            href="//achay.co"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon website"
