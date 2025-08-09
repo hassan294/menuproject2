@@ -638,7 +638,7 @@
         "name": "تمر",
         "calories": "281 سعرة حرارية",
         "price": "6.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16801971140147700.jpg"
       },
       {
         "id": "المشروبات_الباردة_1",
@@ -647,7 +647,7 @@
         "name": "ايس تي كركديه",
         "calories": "N/A",
         "price": "16.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603580194158.jpg"
       },
       {
         "id": "المشروبات_الباردة_2",
@@ -656,7 +656,7 @@
         "name": "ايس تي خوخ",
         "calories": "N/A",
         "price": "16.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603770988284.jpg"
       },
       {
         "id": "المشروبات_الباردة_3",
@@ -665,7 +665,7 @@
         "name": "ايس تي ليمون نعناع",
         "calories": "N/A",
         "price": "16.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/ice_tea_lemon_mint_17500532183511528.jpg"
       },
       {
         "id": "المشروبات_الباردة_4",
@@ -674,7 +674,7 @@
         "name": "ايس تي مانجو حبق",
         "calories": "N/A",
         "price": "16.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999604745863146.jpg"
       },
       {
         "id": "مكسرات_وكيك_1",
@@ -683,7 +683,7 @@
         "name": "شابورة",
         "calories": "70 سعرة حرارية",
         "price": "6.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052207928216250.jpg"
       },
       {
         "id": "مكسرات_وكيك_2",
@@ -692,7 +692,7 @@
         "name": "مكسرات مشكلة",
         "calories": "135 سعرة حرارية",
         "price": "10.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999605150701824.jpg"
       },
       {
         "id": "مكسرات_وكيك_3",
@@ -701,7 +701,7 @@
         "name": "مكسرات ياباني",
         "calories": "120 سعرة حرارية",
         "price": "10.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999605424951056.jpg"
       }
     ],
     "en": [
@@ -1342,7 +1342,7 @@
         "name": "Dates",
         "calories": "281 kcal",
         "price": "6.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16801971140147700.jpg"
       },
       {
         "id": "cold_drinks_1",
@@ -1351,7 +1351,7 @@
         "name": "Ice Tea Hibiscus",
         "calories": "N/A",
         "price": "16.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603580194158.jpg"
       },
       {
         "id": "cold_drinks_2",
@@ -1360,7 +1360,7 @@
         "name": "Ice Tea Peach",
         "calories": "N/A",
         "price": "16.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999603770988284.jpg"
       },
       {
         "id": "cold_drinks_3",
@@ -1369,7 +1369,7 @@
         "name": "Ice Tea Lemon Mint",
         "calories": "N/A",
         "price": "16.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/ice_tea_lemon_mint_17500532183511528.jpg"
       },
       {
         "id": "cold_drinks_4",
@@ -1378,7 +1378,7 @@
         "name": "Ice Tea Mango",
         "calories": "N/A",
         "price": "16.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999604745863146.jpg"
       },
       {
         "id": "nuts_and_shabura_1",
@@ -1387,7 +1387,7 @@
         "name": "Shabura",
         "calories": "70 kcal",
         "price": "6.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052207928216250.jpg"
       },
       {
         "id": "nuts_and_shabura_2",
@@ -1396,7 +1396,7 @@
         "name": "Mixed Nuts",
         "calories": "135 kcal",
         "price": "10.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999605150701824.jpg"
       },
       {
         "id": "nuts_and_shabura_3",
@@ -1405,7 +1405,7 @@
         "name": "Japanese Nuts",
         "calories": "120 kcal",
         "price": "10.00",
-        "image": "N/A"
+        "image": "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999605424951056.jpg"
       }
     ]
   },
