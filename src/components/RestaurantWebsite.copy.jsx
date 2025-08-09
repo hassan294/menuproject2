@@ -24,6 +24,14 @@ const RestaurantWebsite = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [scrollingManually, setScrollingManually] = useState(false);
 
+  // refs for debouncing and latest flag access inside listeners
+  const scrollEndTimeoutRef = useRef(null);
+  const scrollingManuallyRef = useRef(scrollingManually);
+
+  useEffect(() => {
+    scrollingManuallyRef.current = scrollingManually;
+  }, [scrollingManually]);
+
   const menuItems = data.menuItems[language];
 
   const t =
@@ -44,39 +52,6 @@ const RestaurantWebsite = () => {
           viewModes: { grid: "Grid View", list: "List View" },
           currency: "SAR ",
         };
-
-  // Build categories based on menuItems
-  // const categoryMap = new Map();
-
-  // menuItems.forEach((item) => {
-  //   if (!categoryMap.has(item.categoryId)) {
-  //     categoryMap.set(item.categoryId, item.categoryName);
-  //   }
-  // });
-
-  // // Now create categories array
-  // const categories = [
-  //   ...Array.from(categoryMap.entries()).map(([id, name]) => ({
-  //     id,
-  //     name,
-  //     icon: "🍴",
-  //   })),
-  // ];
-
-  // const categories = useMemo(() => {
-  //   const categoryMap = new Map();
-  //   menuItems.forEach((item) => {
-  //     if (!categoryMap.has(item.categoryId)) {
-  //       categoryMap.set(item.categoryId, item.categoryName);
-  //     }
-  //   });
-
-  //   return Array.from(categoryMap.entries()).map(([id, name]) => ({
-  //     id,
-  //     name,
-  //     icon: "🍴",
-  //   }));
-  // }, [menuItems]);
 
   const arabicCategoryNames = {
     breakfast: "إفطار",
@@ -102,7 +77,7 @@ const RestaurantWebsite = () => {
       nuts_and_shabura: "🥜",
       cold_drinks: "🥤",
 
-      // Arabic keys:
+      // Arabic keys (if your JSON uses Arabic keys)
       وجبات_الفطور: "🥐",
       عروض_الجمعات: "👥",
       المناقيش: "🍕",
@@ -124,7 +99,7 @@ const RestaurantWebsite = () => {
     return Array.from(categoryMap.entries()).map(([id, name]) => ({
       id,
       name,
-      icon: iconMap[id] || "🍴", // fallback if not in iconMap
+      icon: iconMap[id] || "🍴",
     }));
   }, [menuItems]);
 
@@ -136,15 +111,13 @@ const RestaurantWebsite = () => {
   }, []);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScrollMeta = () => {
       const heroHeight = heroRef.current?.offsetHeight || 0;
       const socialSection = document.querySelector(".social-section");
       const scrollY = window.scrollY;
 
-      // Show navbar when scrolled past hero
       setIsNavbarVisible(scrollY > heroHeight * 0.7);
 
-      // Make category bar sticky when it reaches top
       if (socialSection) {
         const socialBottom =
           socialSection.offsetTop + socialSection.offsetHeight;
@@ -152,71 +125,11 @@ const RestaurantWebsite = () => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScrollMeta, { passive: true });
+    return () => window.removeEventListener("scroll", handleScrollMeta);
   }, []);
-  // Replace the intersection observer useEffect with this improved version:
-  useEffect(() => {
-    const observerOptions = {
-      root: null,
-      rootMargin: "0px 0px -50% 0px",
-      threshold: [0, 0.25, 0.5, 0.75, 1.0],
-    };
 
-    const observerCallback = (entries) => {
-      // Find the entry with the largest intersection ratio
-      let mostVisibleEntry = null;
-      let maxRatio = 0;
-
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && entry.intersectionRatio > maxRatio) {
-          maxRatio = entry.intersectionRatio;
-          mostVisibleEntry = entry;
-        }
-      });
-
-      // If we have a most visible entry, update active category
-      if (mostVisibleEntry) {
-        const categoryId = mostVisibleEntry.target.id.replace("category-", "");
-        setActiveCategory(categoryId);
-
-        // Center the active category button
-        setTimeout(() => {
-          centerActiveCategory(categoryId);
-        }, 100);
-      }
-
-      // Special case: if we're at the very top, set to "all"
-      const scrollY = window.scrollY;
-      const heroHeight = heroRef.current?.offsetHeight || 0;
-      const socialSection = document.querySelector(".social-section");
-      const socialHeight = socialSection?.offsetHeight || 0;
-
-      if (scrollY < heroHeight + socialHeight + 100 && categories.length > 0) {
-        setActiveCategory(categories[0].id);
-        setTimeout(() => {
-          centerActiveCategory(categories[0].id);
-        }, 100);
-      }
-    };
-
-    const observer = new IntersectionObserver(
-      observerCallback,
-      observerOptions
-    );
-
-    // Observe all category sections
-    categories.forEach((category) => {
-      const element = document.getElementById(`category-${category.id}`);
-      if (element) {
-        observer.observe(element);
-      }
-    });
-
-    return () => observer.disconnect();
-  }, [categories]);
-
-  // Add this new function before the return statement
+  // Center a category button in the scroll area
   const centerActiveCategory = (categoryId) => {
     const categoryScroll = document.querySelector(".category-scroll");
     const activeButton = document.querySelector(
@@ -240,41 +153,75 @@ const RestaurantWebsite = () => {
     }
   };
 
-  // Update the scrollToCategory function to not interfere with intersection observer:
-  // const scrollToCategory = (categoryId) => {
-  //   setScrollingManually(true); // prevent observer override
-  //   setActiveCategory(categoryId); // apply immediately
+  // Robust scroll-based active category detector (replaces IntersectionObserver)
+  useEffect(() => {
+    const onScrollActive = () => {
+      // keep meta updates quick
+      if (scrollEndTimeoutRef.current) {
+        clearTimeout(scrollEndTimeoutRef.current);
+      }
 
-  //   setTimeout(() => {
-  //     centerActiveCategory(categoryId);
-  //   }, 100);
+      // set a short timeout to detect end of scrolling (debounce)
+      scrollEndTimeoutRef.current = setTimeout(() => {
+        setScrollingManually(false); // allow auto updates after user stops scrolling
+      }, 150);
 
-  //   const element = document.getElementById(`category-${categoryId}`);
-  //   if (element) {
-  //     const offset = isCategoryBarSticky ? 120 : 60;
-  //     window.scrollTo({
-  //       top: element.offsetTop - offset,
-  //       behavior: "smooth",
-  //     });
-  //   }
+      // If currently doing a manual click-initiated scroll, do not override active category
+      if (scrollingManuallyRef.current) return;
 
-  //   // Re-enable observer after a short delay (scroll should be complete)
-  //   setTimeout(() => {
-  //     setScrollingManually(false);
-  //   }, 300); // adjust if needed
-  // };
+      // Determine which category section's center is closest to viewport center
+      const sections = categories
+        .map((c) => document.getElementById(`category-${c.id}`))
+        .filter(Boolean);
+
+      if (sections.length === 0) return;
+
+      const viewportCenter = window.innerHeight / 2;
+      let closestEl = null;
+      let minDist = Infinity;
+
+      sections.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        const elCenter = rect.top + rect.height / 2;
+        const dist = Math.abs(elCenter - viewportCenter);
+        if (dist < minDist) {
+          minDist = dist;
+          closestEl = el;
+        }
+      });
+
+      if (closestEl) {
+        const id = closestEl.id.replace("category-", "");
+        if (id !== activeCategory) {
+          setActiveCategory(id);
+          // center category button slightly after state set
+          setTimeout(() => centerActiveCategory(id), 80);
+        }
+      }
+    };
+
+    window.addEventListener("scroll", onScrollActive, { passive: true });
+    // also call once to set initial active
+    onScrollActive();
+
+    return () => {
+      window.removeEventListener("scroll", onScrollActive);
+      if (scrollEndTimeoutRef.current) {
+        clearTimeout(scrollEndTimeoutRef.current);
+      }
+    };
+  }, [categories, activeCategory]);
 
   const scrollToCategory = (categoryId) => {
+    // when clicking, we want to lock auto updates until scroll settles
     setScrollingManually(true);
-    setActiveCategory(categoryId);
+    scrollingManuallyRef.current = true;
 
-    setTimeout(() => {
-      centerActiveCategory(categoryId);
-    }, 100);
+    setActiveCategory(categoryId);
+    setTimeout(() => centerActiveCategory(categoryId), 100);
 
     const element = document.getElementById(`category-${categoryId}`);
     if (element) {
-      // Get the combined height of sticky navbar and category bar
       const navbar = document.querySelector(".sticky-navbar");
       const categoryBar = document.querySelector(".category-bar");
 
@@ -283,15 +230,19 @@ const RestaurantWebsite = () => {
 
       const totalOffset = navbarHeight + categoryBarHeight;
 
+      // smooth scroll to the section taking sticky heights into account
       window.scrollTo({
         top: element.offsetTop - totalOffset,
         behavior: "smooth",
       });
     }
 
-    setTimeout(() => {
+    // set a safe timeout fallback in case scroll events/debounce miss it
+    if (scrollEndTimeoutRef.current) clearTimeout(scrollEndTimeoutRef.current);
+    scrollEndTimeoutRef.current = setTimeout(() => {
       setScrollingManually(false);
-    }, 500);
+      scrollingManuallyRef.current = false;
+    }, 700); // give time for smooth scroll to complete
   };
 
   const toggleLanguage = () => {
@@ -299,33 +250,28 @@ const RestaurantWebsite = () => {
     document.dir = language === "ar" ? "rtl" : "ltr";
   };
 
-  // Add this new useEffect for initial state
   useEffect(() => {
-    // Set initial active category to the first real category instead of "all"
+    // initial active category
     if (categories.length > 0) {
       setActiveCategory(categories[0].id);
       centerActiveCategory(categories[0].id);
     }
   }, [categories]);
 
-  // Add these functions before the return statement:
   const openModal = (item) => {
     setSelectedItem(item);
     setIsModalOpen(true);
-    document.body.style.overflow = "hidden"; // Prevent background scrolling
+    document.body.style.overflow = "hidden";
   };
 
   const closeModal = () => {
     setSelectedItem(null);
     setIsModalOpen(false);
-    document.body.style.overflow = "unset"; // Restore scrolling
+    document.body.style.overflow = "unset";
   };
 
-  // Add click outside handler
   const handleModalClick = (e) => {
-    if (e.target === e.currentTarget) {
-      closeModal();
-    }
+    if (e.target === e.currentTarget) closeModal();
   };
 
   return (
@@ -333,7 +279,6 @@ const RestaurantWebsite = () => {
       className={`restaurant-app ${language}`}
       dir={language === "ar" ? "rtl" : "ltr"}
     >
-      {/* Sticky Navbar */}
       <nav className={`sticky-navbar ${isNavbarVisible ? "visible" : ""}`}>
         <div className="navbar-content">
           <div className="navbar-logo">
@@ -357,7 +302,6 @@ const RestaurantWebsite = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section className="hero" ref={heroRef}>
         <div className="hero-background">
           <div className="hero-overlay"></div>
@@ -381,7 +325,6 @@ const RestaurantWebsite = () => {
         </div>
       </section>
 
-      {/* Social & CTA Section */}
       <section className="social-section">
         <p className="follow-text">{t.followUs}</p>
         <div className="social-icons">
@@ -483,13 +426,11 @@ const RestaurantWebsite = () => {
         </div>
       </div>
 
-      {/* Menu Sections */}
       <main className="menu-sections">
         {categories.map((category) => {
           const categoryItems = menuItems.filter(
             (item) => item.categoryId === category.id
           );
-
           if (categoryItems.length === 0) return null;
 
           return (
@@ -535,7 +476,6 @@ const RestaurantWebsite = () => {
         })}
       </main>
 
-      {/* Modal */}
       {isModalOpen && selectedItem && (
         <div className="modal-overlay" onClick={handleModalClick}>
           <div className="modal-content">
