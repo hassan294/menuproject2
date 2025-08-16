@@ -731,7 +731,6 @@ const RestaurantWebsite = () => {
               ))}
             </ul>
           </div>
-          >
         </div>
       )}
 
