@@ -833,7 +833,7 @@ html {
 }
 
 .popular-section {
-  margin: 83px 0;
+  margin: 83px 10px;
   margin-bottom: 20px;
 }
 
@@ -1020,4 +1020,21 @@ html {
 .footer .footer-copy {
   font-size: 14px;
   color: #d0d0d0;
+}
+.menu-itemPopular {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-infoPopular {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* take up remaining space inside card */
+  padding: 10px;
+}
+
+.item-footerPopular {
+  margin-top: auto;
+    margin-left: auto;
+    padding-right: 5px;
 }

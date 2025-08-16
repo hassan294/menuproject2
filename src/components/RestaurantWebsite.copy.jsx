@@ -547,16 +547,16 @@ const RestaurantWebsite = () => {
           {popularItems.map((item) => (
             <div
               key={item.id}
-              className="menu-item"
+              className="menu-item menu-itemPopular"
               onClick={() => openModal(item)}
             >
               <div className="item-image">
                 <img src={item.image} alt={item.name[language]} />
               </div>
-              <div className="item-info">
+              <div className="item-infoPopular">
                 <h3 className="item-name">{item.name[language]}</h3>
                 <p className="item-description">{item.description[language]}</p>
-                <div className="item-footer">
+                <div className="item-footerPopular">
                   <span className="item-price">
                     {t.currency}
                     {item.price}
