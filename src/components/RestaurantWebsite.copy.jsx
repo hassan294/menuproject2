@@ -23,6 +23,20 @@ const RestaurantWebsite = () => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [scrollingManually, setScrollingManually] = useState(false);
+  const [isAllergensModalOpen, setIsAllergensModalOpen] = useState(false);
+  const breakfastCategoryId = language === "ar" ? "وجبات_الفطور" : "breakfast";
+  const allergensData = [
+    { name: "Nuts", description: "Such as cashews, pistachios and others" },
+    { name: "Bean", description: "Such as black and kidney beans" },
+    { name: "Dairy", description: "Such as milk, cheese and yogurt" },
+    { name: "Eggs", description: "Such as cake and scrambled eggs" },
+    {
+      name: "Seed",
+      description: "Such as sesame, sunflower, and pumpkin seeds",
+    },
+    { name: "Wheat", description: "Such as bread, pasta, flour" },
+    // add more allergens here
+  ];
 
   // refs for debouncing and latest flag access inside listeners
   const scrollEndTimeoutRef = useRef(null);
@@ -64,6 +78,93 @@ const RestaurantWebsite = () => {
     nuts_and_shabura: "مكسرات وشابورة",
     cold_drinks: "مشروبات باردة",
   };
+
+  const popularItems = [
+    {
+      id: "breakfast_1",
+      name: {
+        en: "His Liver",
+        ar: "كبده",
+      },
+      description: {
+        en: "720 kcal",
+        ar: "720 سعرة حرارية",
+      },
+      price: "22.00",
+      image:
+        "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052203349376774.jpg",
+    },
+    {
+      id: "group_offers_1",
+      name: {
+        en: "Large Breakfast Meal",
+        ar: "وجبة فطور كبيرة محلي",
+      },
+      description: {
+        en: "1375 kcal",
+        ar: "1375 سعرة حرارية",
+      },
+      price: "75.00",
+      image:
+        "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999591418493138.jpg",
+    },
+    {
+      id: "manakish_1",
+      name: {
+        en: "Eggplant Pie",
+        ar: "فطيرة الباذنجان",
+      },
+      description: {
+        en: "280 kcal",
+        ar: "280 سعرة حرارية",
+      },
+      price: "13.00",
+      image:
+        "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999609075054284.jpg",
+    },
+    {
+      id: "sweets_and_cell_1",
+      name: {
+        en: "Sesame Beehive",
+        ar: "خلية نحل سمسم",
+      },
+      description: {
+        en: "300 kcal",
+        ar: "300 سعرة حرارية",
+      },
+      price: "25.00",
+      image:
+        "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999593743283816.jpg",
+    },
+    {
+      id: "samosa_and_its_derivatives_1",
+      name: {
+        en: "Chicken Samosa",
+        ar: "سمبوسة دجاج",
+      },
+      description: {
+        en: "640 kcal",
+        ar: "640 سعرة حرارية",
+      },
+      price: "20.00",
+      image:
+        "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_17052207494541938.jpg",
+    },
+    {
+      id: "tea_1",
+      name: {
+        en: "Red Tea Pot",
+        ar: "شاي أحمر إبريق",
+      },
+      description: {
+        en: "165 kcal",
+        ar: "165 سعرة حرارية",
+      },
+      price: "24.00",
+      image:
+        "https://d8aaen7rph5y9.cloudfront.net/app/mediafiles/t_1679855127_cy9e3s/items/_16999597634478924.jpg",
+    },
+  ];
 
   const categories = useMemo(() => {
     const iconMap = {
@@ -316,9 +417,10 @@ const RestaurantWebsite = () => {
             <h1>{t.restaurantName}</h1>
             <p className="tagline">{t.tagline}</p>
           </div>
+
           <button
             className="cta-button"
-            onClick={() => scrollToCategory("breakfast")}
+            onClick={() => scrollToCategory(breakfastCategoryId)}
           >
             {t.exploreMenu}
           </button>
@@ -425,6 +527,34 @@ const RestaurantWebsite = () => {
           </div>
         </div>
       </div>
+      <section className="popular-section">
+        <h2 className="category-title">
+          ⭐ {language === "ar" ? "الأكثر طلباً" : "Popular"}
+        </h2>
+        <div className="popular-grid">
+          {popularItems.map((item) => (
+            <div
+              key={item.id}
+              className="menu-item"
+              onClick={() => openModal(item)}
+            >
+              <div className="item-image">
+                <img src={item.image} alt={item.name[language]} />
+              </div>
+              <div className="item-info">
+                <h3 className="item-name">{item.name[language]}</h3>
+                <p className="item-description">{item.description[language]}</p>
+                <div className="item-footer">
+                  <span className="item-price">
+                    {t.currency}
+                    {item.price}
+                  </span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <main className="menu-sections">
         {categories.map((category) => {
@@ -462,6 +592,9 @@ const RestaurantWebsite = () => {
                         {item.description || ""}
                       </p>
                       <div className="item-footer">
+                        {item.calories && item.calories !== "N/A" && (
+                          <span>{item.calories}</span>
+                        )}
                         <span className="item-price">
                           {t.currency}
                           {item.price}
@@ -474,7 +607,117 @@ const RestaurantWebsite = () => {
             </section>
           );
         })}
+        <div className="allergens-button-container">
+          <button
+            className="allergens-button"
+            onClick={() => setIsAllergensModalOpen(true)}
+          >
+            {language === "ar"
+              ? "المسببات الغذائية ومصادر الطعام"
+              : "Allergens & Food Sources"}
+          </button>
+        </div>
       </main>
+      <footer className="footer">
+        <div className="footer-content">
+          <p className="follow-text" style={{ color: "white" }}>
+            {t.followUs}
+          </p>
+          <div className="social-icons">
+            <a
+              href="https://www.instagram.com/achay_tea1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon instagram"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://tiktok.com/@achay_tea1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon tiktok"
+            >
+              <FaTiktok />
+            </a>
+            <a
+              href="https://www.snapchat.com/add/JZlEucg1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon snapchat"
+            >
+              <FaSnapchatGhost />
+            </a>
+            <a
+              href="https://wa.me/+966506185545"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon whatsapp"
+            >
+              <FaWhatsapp />
+            </a>
+            <a href="tel:+1234567890" className="social-icon phone">
+              <FaPhoneAlt />
+            </a>
+            <a
+              href="https://twitter.com/achay_tea1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon twitter"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://maps.app.goo.gl/ysE4bW8YZcCaGhTV6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon location"
+            >
+              <FaMapMarkerAlt />
+            </a>
+            <a
+              href="//achay.co"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon website"
+            >
+              <FaGlobe />
+            </a>
+          </div>
+          <p className="footer-copy">
+            © {new Date().getFullYear()} Achay. All rights reserved.
+          </p>
+        </div>
+      </footer>
+
+      {isAllergensModalOpen && (
+        <div
+          className="modal-overlay"
+          onClick={() => setIsAllergensModalOpen(false)}
+        >
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button
+              className="modal-close"
+              onClick={() => setIsAllergensModalOpen(false)}
+            >
+              ×
+            </button>
+            <h2 className="modal-title">
+              {language === "ar"
+                ? "المسببات الغذائية ومصادر الطعام"
+                : "Allergens & Food Sources"}
+            </h2>
+            <ul className="allergens-list">
+              {allergensData.map((allergen, index) => (
+                <li key={index} className="allergen-item">
+                  <h6 className="allergen-name">{allergen.name}</h6>
+                  <p className="allergen-description">{allergen.description}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
 
       {isModalOpen && selectedItem && (
         <div className="modal-overlay" onClick={handleModalClick}>
@@ -489,8 +732,24 @@ const RestaurantWebsite = () => {
               />
             </div>
             <div className="modal-info">
-              <h2 className="modal-title">{selectedItem.name}</h2>
-              <p className="modal-description">{selectedItem.description}</p>
+              <h2 className="modal-title">
+                {typeof selectedItem.name === "object"
+                  ? selectedItem.name[language]
+                  : selectedItem.name}
+              </h2>
+
+              <p className="modal-description">
+                {selectedItem.calories && selectedItem.calories !== "N/A"
+                  ? selectedItem.calories
+                  : ""}
+              </p>
+
+              <p className="modal-description">
+                {typeof selectedItem.description === "object"
+                  ? selectedItem.description[language]
+                  : selectedItem.description}
+              </p>
+
               <div className="modal-price">
                 {t.currency}
                 {selectedItem.price}
