@@ -25,18 +25,30 @@ const RestaurantWebsite = () => {
   const [scrollingManually, setScrollingManually] = useState(false);
   const [isAllergensModalOpen, setIsAllergensModalOpen] = useState(false);
   const breakfastCategoryId = language === "ar" ? "وجبات_الفطور" : "breakfast";
-  const allergensData = [
-    { name: "Nuts", description: "Such as cashews, pistachios and others" },
-    { name: "Bean", description: "Such as black and kidney beans" },
-    { name: "Dairy", description: "Such as milk, cheese and yogurt" },
-    { name: "Eggs", description: "Such as cake and scrambled eggs" },
-    {
-      name: "Seed",
-      description: "Such as sesame, sunflower, and pumpkin seeds",
-    },
-    { name: "Wheat", description: "Such as bread, pasta, flour" },
-    // add more allergens here
-  ];
+  const allergensData = {
+    en: [
+      { name: "Nuts", description: "Such as cashews, pistachios and others" },
+      { name: "Bean", description: "Such as black and kidney beans" },
+      { name: "Dairy", description: "Such as milk, cheese and yogurt" },
+      { name: "Eggs", description: "Such as cake and scrambled eggs" },
+      {
+        name: "Seed",
+        description: "Such as sesame, sunflower, and pumpkin seeds",
+      },
+      { name: "Wheat", description: "Such as bread, pasta, flour" },
+    ],
+    ar: [
+      { name: "مكسرات", description: "مثل الفستق، الكاجو والبندق" },
+      { name: "فول", description: "مثل الفول او الفاصولياء السوداء" },
+      { name: "ألبان", description: "مثل الحليب، الجبنة والزبادي" },
+      { name: "بيض", description: "مثل الكيك والبيض المخفوق" },
+      {
+        name: "حب",
+        description: "مثل السمسم، بذور دوار الشمس، وبذور اليقطين أو القرع",
+      },
+      { name: "قمح", description: "مثل الخبز، المعكرونة، الدقيق" },
+    ],
+  };
 
   // refs for debouncing and latest flag access inside listeners
   const scrollEndTimeoutRef = useRef(null);
@@ -695,7 +707,10 @@ const RestaurantWebsite = () => {
           className="modal-overlay"
           onClick={() => setIsAllergensModalOpen(false)}
         >
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <div
+            className={`modal-content ${language === "ar" ? "rtl" : ""}`}
+            onClick={(e) => e.stopPropagation()}
+          >
             <button
               className="modal-close"
               onClick={() => setIsAllergensModalOpen(false)}
@@ -708,7 +723,7 @@ const RestaurantWebsite = () => {
                 : "Allergens & Food Sources"}
             </h2>
             <ul className="allergens-list">
-              {allergensData.map((allergen, index) => (
+              {allergensData[language].map((allergen, index) => (
                 <li key={index} className="allergen-item">
                   <h6 className="allergen-name">{allergen.name}</h6>
                   <p className="allergen-description">{allergen.description}</p>
@@ -716,6 +731,7 @@ const RestaurantWebsite = () => {
               ))}
             </ul>
           </div>
+          >
         </div>
       )}
 

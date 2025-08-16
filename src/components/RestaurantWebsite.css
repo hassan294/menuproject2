@@ -854,7 +854,7 @@ html {
   margin: 0 8px;
   text-decoration: none;
 }
-.modal-overlay {
+/* .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -886,6 +886,64 @@ html {
   background: none;
   border: none;
   cursor: pointer;
+} */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  max-width: 600px;
+  width: 90%;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+  direction: ltr; /* default English */
+}
+
+.modal-content.rtl {
+  direction: rtl; /* Arabic */
+  text-align: right;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.allergens-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.allergen-item {
+  margin-bottom: 16px;
+}
+
+.allergen-name {
+  font-weight: bold;
+}
+
+.allergen-description {
+  margin: 4px 0 0 0;
+  color: #5b5a87;
+  font-size: 14px;
 }
 
 /* Container to center or position the button */
