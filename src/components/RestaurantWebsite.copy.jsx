@@ -735,9 +735,9 @@ const RestaurantWebsite = () => {
       )}
 
       {isModalOpen && selectedItem && (
-        <div className="modal-overlay" onClick={handleModalClick}>
-          <div className="modal-content">
-            <button className="modal-close" onClick={closeModal}>
+        <div className="modal-overlayforItems" onClick={handleModalClick}>
+          <div className="modal-contentforItems">
+            <button className="modal-closeforItems" onClick={closeModal}>
               ×
             </button>
             <div className="modal-image">

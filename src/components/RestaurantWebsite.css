@@ -529,7 +529,7 @@ body {
 }
 
 /* Modal Styles */
-.modal-overlay {
+.modal-overlayforItems {
   position: fixed;
   top: 0;
   left: 0;
@@ -545,7 +545,7 @@ body {
   animation: fadeIn 0.3s ease-out;
 }
 
-.modal-content {
+.modal-contentforItems {
   background: var(--light-gradient);
   border-radius: 25px;
   max-width: 400px;
@@ -558,7 +558,7 @@ body {
   border: 1px solid var(--border-color);
 }
 
-.modal-close {
+.modal-closeforItems {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -577,7 +577,7 @@ body {
   z-index: 1;
 }
 
-.modal-close:hover {
+.modal-closeforItems:hover {
   background: rgba(37, 99, 235, 0.2);
   transform: scale(1.1);
 }
